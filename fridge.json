@@ -1,0 +1,96 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://81b3361a-c3fb-4bcc-b734-5209a3f4b164",
+	"@type": "sc:Manifest",
+	"label": "Fridge Door",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "my fridge magnets as of February 2025",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://f22b5731-81ab-4350-85c1-488cf5f9ada4",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://dce7a0c5-4bb3-47f2-b264-0522877559a7",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 5371,
+					"width": 3826,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7294ec3f-ad89-4d75-a160-c9d313e7f2ac",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://mingde.me/iiif/2/wimmel.tif/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://mingde.me/iiif/2/wimmel.tif",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 5371,
+								"width": 3826
+							},
+							"on": "http://dce7a0c5-4bb3-47f2-b264-0522877559a7"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
