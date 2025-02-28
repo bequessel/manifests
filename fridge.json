@@ -26,7 +26,7 @@
 				{
 					"@id": "http://dce7a0c5-4bb3-47f2-b264-0522877559a7",
 					"@type": "sc:Canvas",
-					"label": "Empty canvas",
+					"label": "Non-empty canvas",
 					"height": 5371,
 					"width": 3826,
 					"images": [
